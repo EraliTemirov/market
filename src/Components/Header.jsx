@@ -25,16 +25,6 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary fs-4" to="/">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link className="btn btn-primary fs-4" to="/">
-              Contact
-            </Link>
-          </li>
-          <li>
             <button onClick={handleLogout} className="btn btn-primary fs-4">
               Logout <i className="fa-solid fa-arrow-right-from-bracket"></i>{" "}
             </button>

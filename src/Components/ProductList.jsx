@@ -1,11 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Search from "./Search";
 
 const ProductList = ({ products }) => {
   return (
     <div className="row g-3">
-      <Search />
       {products.map((product, index) => (
         <div className="col-md-6 col-lg-3" key={index}>
           <div className="card" aria-hidden="true">
@@ -31,11 +29,10 @@ const ProductList = ({ products }) => {
               <div className="d-flex gap-1">
                 <Link
                   to={`/details/${product.id}`}
-                  className="btn btn-primary col-6"
+                  className="btn btn-primary col-6 w-100"
                 >
                   Read More...
                 </Link>
-                <button className="btn btn-success col-6">Buy Now</button>
               </div>
             </div>
           </div>
