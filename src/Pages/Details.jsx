@@ -55,7 +55,7 @@ const Details = () => {
         </div>
         <p className="fs-4">
           <span className="des-span">Description:</span> {producte.description}
-        </p>
+         </p>
       </div>
     </div>
   );

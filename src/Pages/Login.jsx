@@ -25,8 +25,10 @@ const Login = () => {
         navigate("/");
       }
     } catch (error) {
+      alert("eve.holt@reqres.in");
       toast(error.response.data.error, {
         type: "error",
+        
       });
     } finally {
       setValues({ email: "", password: "" });
